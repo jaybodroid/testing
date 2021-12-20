@@ -1,0 +1,9 @@
+function Set (list)
+   local set = {}
+   for _, l in ipairs(list) do set[l] = true end
+   return set
+end
+return Set {
+    "4200400080010200000200008141100001000000820000000100100000000901", -- once you get the user's hashed hwid and decoded it put it here
+    
+}
